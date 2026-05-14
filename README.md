@@ -39,6 +39,16 @@ Reutilização e manutenção: Por estar em Python, sem necessidade de declarar 
 
 ## Tarefa 3 — Passagem por Valor (Java)
 
+Nesta tarefa foi criado um programa em Java para demonstrar como funciona a passagem de parâmetros por valor utilizando um tipo primitivo.
+No programa observei, que a variável número recebe o valor 10 no método main. Esse valor é passado para o método alterarNumero(int x), onde o parâmetro x recebe apenas uma cópia do valor original e é alterado para 20 dentro do método.
+Mesmo após mudar, a variável número no main continua valendo 10. Isso acontece porque Java não passa a variável original para o método, ou seja, ele passa uma cópia do valor armazenado nela. 
+Qualquer modificação feita em x existe apenas dentro do método alterarNumero() e some quando ele termina.
+
+O que aprendi: Tipos primitivos como int, double e boolean são sempre passados por valor em Java. Isso significa que o método trabalha com uma cópia, ou seja, o dado original fica protegido de alterações externas.
+
+Dificuldade encontrada: No início achei confuso entender por que o valor não mudava no main, mas depois de ver a saída do programa ficou bem claro, conseguir entender rodando e observando o código, pois o método alterava apenas a sua cópia local.
+
+
 ## Tarefa 4 — Objetos e Referência (Java)
 
 ## Tarefa 5 — Gerenciamento de Tarefas (Python)
