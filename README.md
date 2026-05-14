@@ -66,6 +66,17 @@ Java passa por valor, mas o objeto mudou. A explicação do endereço de memóri
 
 ## Tarefa 5 — Gerenciamento de Tarefas (Python)
 
+Nesta tarefa foi desenvolvido em Python um sistema de gerenciamento de tarefas, com o objetivo de permitir que o usuário adicione, liste, conclua, remova e busque tarefas. O sistema retorna os valores de forma organizada, dando ao usuário controle total sobre suas tarefas.
+
+Legibilidade e fluxo: O fluxo das funções ficou bem organizado e dinâmico. Por já ter familiaridade com Python, consegui distribuir corretamente cada função em sua determinada responsabilidade, mantendo uma boa coesão entre elas.
+
+Estrutura utilizada: Optei por utilizar tanto dicionários quanto listas no programa, e os dicionários para armazenar os dados de cada tarefa e a lista para guardar todas as tarefas cadastradas.
+
+Tamanho dos métodos e coesão: Cada função ficou com um tamanho razoável e bem coesa, onde cada uma tem um propósito claro dentro do sistema.
+Dificuldade encontrada: A única dificuldade foi na função de remover tarefa, que exigiu um pouco mais de atenção por utilizar índice para localizar e remover o item correto da lista.
+
+Vantagens da modularização: Dividir o código em funções foi a melhor escolha, se tudo ficasse junto, atrapalharia o raciocínio e o fluxo do programa. Com as funções separadas, consigo identificar falhas com mais facilidade, reutilizar o código quando necessário e detalhar cada parte de forma independente.
+
 ---
 
 ## Diagrama de chamadas
@@ -92,9 +103,19 @@ main()
 ```
 ## Justificativa da divisão dos subprogramas
 
+A divisão em subprogramas foi escolhida porque deixar tudo junto em um único bloco de código atrapalharia o raciocínio e dificultaria a identificação do fluxo do programa. Com cada função tendo sua própria responsabilidade, o código ficou mais organizado, legível e fácil de entender. Além disso, a separação permite identificar falhas com mais facilidade e reutilizar funções em diferentes partes do sistema sem precisar reescrever o código.
+
 ## Dificuldades encontradas
 
-## Vantagens percebidas da modularização
+A maior dificuldade geral foi na Tarefa 4, onde foi necessário entender como Java passa objetos para métodos. No início parecia contraditório — Java passa por valor, mas o objeto mudava. A explicação do endereço de memória ajudou a clarear essa dúvida. Na Tarefa 5, a função de remover tarefa exigiu mais atenção por utilizar índice para localizar e remover o item correto da lista.
+
+## Vantagens percebidas da modularização:
+
+Código mais legível e organizado;
+Fácil identificação de falhas em cada função;
+Possibilidade de reutilizar funções sem repetir código;
+Manutenção mais simples — qualquer correção é feita apenas na função responsável;
+Fluxo de execução mais claro e dinâmico.
 ---
 
 
