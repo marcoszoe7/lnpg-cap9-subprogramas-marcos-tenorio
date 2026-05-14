@@ -3,7 +3,7 @@
 **Nome:** Marcos Antonio Ferreira Tenorio
 **LLM utilizado:** Claude
 **Modelo:** Claude Sonnet 4.5
-
+**Turma:** LNPG-BSI-2026.1
 ---
 
 ## Tarefa 1 — Sistema Acadêmico (Java)
