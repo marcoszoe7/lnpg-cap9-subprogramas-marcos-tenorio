@@ -39,12 +39,16 @@ main()
 ├── concluir_tarefa(indice)
 ├── remover_tarefa(indice)
 └── buscar_tarefa(palavra)
-```
 
----
 
 ## Justificativa da divisão dos subprogramas
 
 ## Dificuldades encontradas
 
 ## Vantagens percebidas da modularização
+
+```
+
+---
+
+
