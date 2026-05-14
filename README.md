@@ -51,6 +51,19 @@ Dificuldade encontrada: No início achei confuso entender por que o valor não m
 
 ## Tarefa 4 — Objetos e Referência (Java)
 
+Nesta tarefa foi criado um programa em Java para demonstrar a diferença entre passar um tipo primitivo e passar um objeto para um método.
+No programa, um objeto da classe Produto foi criado com o nome "Notebook" e preço de R$ 3000,00. Esse objeto foi passado para o método aplicarDesconto(), que reduziu o preço em 10%.
+Diferente da tarefa 3, onde o valor não mudava no main, aqui o preço do produto mudou, de R$ 3000,00 para R$ 2700,00, mesmo quando depois o método terminar.
+
+Quando passamos um objeto para um método em Java, não estamos passando o objeto em si, mas sim o endereço de onde ele está na memória. O método recebe esse endereço e vai até o objeto original para fazer a alteração. Por isso a mudança persiste no main.
+
+Comparando com a tarefa 3:
+Na tarefa 3, o número não mudou porque Java copiou o valor. Na tarefa 4, o preço mudou porque Java copiou o endereço do objeto, e ambas as variáveis apontavam para o mesmo lugar na memória.
+
+Dificuldade encontrada: Essa foi a tarefa mais difícil de entender, pois no começo não conseguir como o Java passava o objeto na qual estou trabalhando. 
+Java passa por valor, mas o objeto mudou. A explicação do endereço de memória ajudou a clarear essa dúvida.
+
+
 ## Tarefa 5 — Gerenciamento de Tarefas (Python)
 
 ---
