@@ -107,7 +107,7 @@ A divisão em subprogramas foi escolhida porque deixar tudo junto em um único b
 
 ## Dificuldades encontradas
 
-A maior dificuldade geral foi na Tarefa 4, onde foi necessário entender como Java passa objetos para métodos. No início parecia contraditório — Java passa por valor, mas o objeto mudava. A explicação do endereço de memória ajudou a clarear essa dúvida. Na Tarefa 5, a função de remover tarefa exigiu mais atenção por utilizar índice para localizar e remover o item correto da lista.
+A maior dificuldade geral foi na Tarefa 4, onde foi necessário entender como Java passa objetos para métodos. No início parecia contraditório, Java passa por valor, mas o objeto mudava. A explicação do endereço de memória ajudou a clarear essa dúvida. Na Tarefa 5, a função de remover tarefa exigiu mais atenção por utilizar índice para localizar e remover o item correto da lista.
 
 ## Vantagens percebidas da modularização:
 
